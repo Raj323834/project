@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
 
 * {
     box-sizing: border-box;
@@ -22,23 +22,17 @@ h1 {
     margin-top: 5rem;
 }
 
-.countdown-container {
+.a1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.big-text {
+.a2 {
     font-weight: bold;
     font-size: 6rem;
     line-height: 1;
     margin: 1rem 2rem;
 }
 
-.countdown-el {
-    text-align: center;
-}
 
-.countdown-el span {
-    font-size: 1.3rem;
-}
