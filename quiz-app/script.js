@@ -98,3 +98,6 @@ submitBtn.addEventListener("click", () => {
         }
     }
 });
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, false)

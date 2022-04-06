@@ -67,3 +67,6 @@ function updateLS() {
 
     localStorage.setItem("todos", JSON.stringify(todos));
 }
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, false)

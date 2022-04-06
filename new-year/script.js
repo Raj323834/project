@@ -30,3 +30,7 @@ function formatTime(time) {
 countdown();
 
 setInterval(countdown, 1000);
+
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, false)

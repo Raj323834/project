@@ -72,3 +72,6 @@ form.addEventListener("submit", (e) => {
         search.value = "";
     }
 });
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, false)

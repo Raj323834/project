@@ -46,3 +46,6 @@ form.addEventListener("submit", (e) => {
         getWeatherByLocation(city);
     }
 });
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, false)
