@@ -5,9 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Countdown Timer</title>
         <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
+    
     </head>
     <body>
+        <script>
+            // program to display the date
+// get local machine date time
+const date1 = new Date();
+
+// get the date as a string
+const n1 = date1.toDateString();
+
+// get the time as a string
+const time2 = date1.toLocaleTimeString();
+
+// display date
+console.log('Date: ' + n1);
+document.write('Date: ' + n1);
+
+// display time
+console.log('Time: ' + time2);
+document.write('Time: ' + time2);
+document.addEventListener("contextmenu", function (e){
+    e.preventDefault();
+}, false)
+</script>
         <h1>New Years </h1>
 
         <div class="a1">
@@ -26,7 +48,10 @@
             <div class="a2 seconds-c">
                 <p class="a3" id="seconds">0</p>
                 <span>seconds</span>
+                
             </div>
         </div>
     </body>
+    <script src="script.js" defer></script>
+   
 </html>

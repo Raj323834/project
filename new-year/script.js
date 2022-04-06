@@ -1,13 +1,20 @@
 const daysEl = document.getElementById("days");
+console.log(days);
 const hoursEl = document.getElementById("hours");
+console.log(hours);
 const minsEl = document.getElementById("mins");
+console.log(mins);
 const secondsEl = document.getElementById("seconds");
+console.log(seconds);
+const DateE1 = document.getElementById("date");
+
 
 const newYears = "1 Jan 2023";
 
 function countdown() {
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
+   
 
     const totalSeconds = (newYearsDate - currentDate) / 1000;
 
@@ -31,6 +38,11 @@ countdown();
 
 setInterval(countdown, 1000);
 
-document.addEventListener("contextmenu", function (e){
-    e.preventDefault();
-}, false)
+
+
+
+
+   
+
+
+
